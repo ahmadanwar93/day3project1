@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+}
+#container {
+  width: 737px;
+  height: 959px;
+  background-image: url(images/bg-1.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.first {
+  font-size: 52px;
+  color: white;
+  font-weight: 100;
+}
+.second,
+.third {
+  color: rgb(27, 143, 144);
+  font-weight: bold;
+  margin-top: 5px;
+}
+.second {
+  letter-spacing: 10px;
+}
+.headline {
+  padding-left: 55px;
+  padding-top: 70px;
+}
+.description {
+  padding-top: 400px;
+  padding-left: 55px;
+  width: 250px;
+}
+.description h1 {
+  font-size: 25px;
+  color: rgb(33, 147, 148);
+}
+.description p {
+  color: #55616f;
+  font-size: 14px;
+}
+
+.hexagon {
+  position: absolute;
+  top: 220px;
+  left: 280px;
+  width: 250px;
+  height: 144.34px;
+  background-color: #ffffff;
+  margin: 72.17px 0;
+  z-index: 3;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 72.17px solid #ffffff;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 72.17px solid #ffffff;
+}
+
+.hexagon2 {
+  position: absolute;
+  top: 468px;
+  left: 580px;
+  width: 220px;
+  height: 127.02px;
+  background-color: #ffffff;
+  margin: 63.51px 0;
+}
+
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+}
+
+.hexagon2:before {
+  bottom: 100%;
+  border-bottom: 63.51px solid #ffffff;
+}
+
+.hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 63.51px solid #ffffff;
+}
+
+.hexagon3 {
+  position: absolute;
+  width: 350px;
+  height: 202.07px;
+  background-color: #feeb22;
+  margin: 101.04px 0;
+  top: -10px;
+  left: 450px;
+  z-index: 2;
+}
+
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+}
+
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 101.04px solid #feeb22;
+}
+
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 101.04px solid #feeb22;
+}
